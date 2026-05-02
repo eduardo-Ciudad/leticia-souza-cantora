@@ -77,6 +77,15 @@ img { display: block; max-width: 100%; }
   will-change: transform;
 }
 
+@media (max-width: 480px) {
+  .btn {
+    padding: 14px 20px;
+    font-size: 15px;
+    width: 100%;
+    white-space: normal;
+  }
+}
+
 .btn:hover  { transform: translateY(-2px) scale(1.03); filter: brightness(1.06); }
 .btn:active { transform: translateY(1px) scale(0.98); }
 
